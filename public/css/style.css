@@ -241,3 +241,53 @@ h4 {
     width: 100px;
     height: 70px
 }
+/* Login page */
+.login{
+    width: 400px;
+    height: 400px;
+    background-color: #76b5c5;
+    text-align: center;
+    border: 1px solid grey ;
+    border-radius: 10px;
+
+}
+.logan{
+    line-height: 10px;
+}
+.login h2{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+}
+.login p{
+    display: inline-block;
+    float: left;
+    padding-left: 50px;
+    
+}
+.login input{
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 0px;
+    
+}
+.check input{
+    width: 10px;
+    height: 10px;
+    margin-top: 15px;
+}
+.login button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background:blue;
+    color: white; 
+    margin-bottom: 20px;
+} 
+.login .logan a{
+    text-decoration: none;
+}
